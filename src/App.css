@@ -1,0 +1,41 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    border-bottom: 1px solid black;
+    /* background-color: gray; */
+}
+.AppHeader{
+    background-color:rgba(0, 0, 0, 0.03) ;
+    /* background-color:  rgba(11, 90, 129, 0.246); */
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+.AppFooter{
+border-top: 1px solid black;
+height: 30px;
+display: flex;
+justify-content: space-around;
+/* font-size: xx-large; */
+background-color: rgba(120, 118, 106, 0.273)
+}
+
+.sideMenuAndPageContent{
+    display: flex;
+    flex:1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* background-color:rgba(0, 0, 0, 0.05) ; */
+}
+.PageContent{
+    padding-left: 12px;
+    
+}
+.SideMenuVertical{
+    /* background-color:rgba(0, 0, 0, 0.005) ; */
+    height: 100%;
+}
